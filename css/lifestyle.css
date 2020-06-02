@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{
+    width: 100%;
+    padding: 15px 0px;
+    
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 13%;
+	margin-top: 3px;
+	
+	
+}
+.logo img{
+	width: 100%;
+} 
+.menu{
+	float: right;
+	width: 70%;
+	
+	
+}
+.menu ul{
+	float: right;
+	margin-top: 8px;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 35px;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	color: #ffffff;
+	background-color: #626262;
+	padding: 0;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+	margin-right: 0px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    width: 100%; 
+ }
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*content start*/
+/*.c_content{}
+.wrapper5{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.left_content{
+	width: 60%;
+	float: left;
+}
+.left_content img{
+	width: 100%;
+	margin: 30px 0;
+}
+.left_content{
+	width: 94%;
+	margin: 0 auto;
+}
+.left_content p{
+	font-style: italic;
+	color: #626262;
+	line-height: 26px;
+}
+.left_content p{
+	color: #626262;
+	line-height: 26px;
+}
+.right_content{
+	width: 30%;
+	float: right;
+}
+*/
+/*content end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	width: 100%;
+	padding: 35px 0
+
+}
+.policy{
+	width: 30%;
+	float: left;
+}
+.policy{}
+.policy ul{}
+.policy ul li{
+	float: left;
+	list-style: none;
+}
+.policy ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 16px;
+	transition: .5s;
+	color: black;
+}
+.policy ul li:hover a{
+	color: #ffffff;
+	background-color: #626262;
+}
+.social_media{
+	width: 40%;
+	float: right;
+}
+.social_media ul{
+	float: right;
+}
+.social_media ul li{
+	float: left;
+	list-style: none;
+	
+	font-size: 16px;
+}
+.social_media ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	transition: .5s;
+}
+.social_media ul li a:hover i{
+	color: black;
+}
+.social_media ul li:last-child a{
+    margin-right: 0px;
+}
+.social_media ul li a i{
+	font-size: 16px;
+	color: #626262;
+}
+/*footer end*/
